@@ -1,0 +1,52 @@
+.prod{
+    font-family: Arial, Helvetica, Raleway and Museo;
+}
+
+.semiNav{
+    background-color: #FFF;
+    box-shadow: 0px 1px 2px 1px rgba(68, 41, 41, 0.2);
+    border-bottom: 1px solid #dddddd;
+}
+
+.semiNav p{
+    padding: 5px 0px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #575757;
+}
+
+.semiNav p:hover{
+    color: #2874f0;
+    cursor: pointer;
+}
+
+.pinInput{
+    padding: 4px;
+}
+
+.pinInput:focus{
+    outline: none;
+    padding: 4px;
+}
+
+.pinCodeBtn{
+    border-bottom: 2px solid #2874f0;
+    color: #9ca3af;
+    padding: 4px;
+}
+
+.pinCodeBtn:focus{
+    outline: none;
+    padding: 4px;
+}
+
+.address{
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+
+.description{
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+}
