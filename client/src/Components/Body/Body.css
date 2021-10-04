@@ -1,0 +1,131 @@
+/* .body_container{
+    background-image: linear-gradient(#c3d67c, #eaeded, #eaeded, #eaeded);
+} */
+
+/* .items_cont{
+    top: 320px;
+    background-image: linear-gradient(#c3d67c, #eaeded, #eaeded, #eaeded, #eaeded, #eaeded, #eaeded);
+}
+
+.bottomSignInBtn{
+    background-color: #ffcd4f;
+    padding: 2px 80px;
+    border: 1px solid #e6a400;
+    border-radius: 4px;
+    margin: 5px 1px;
+    font-size: 11px;
+    font-weight: 700;
+    outline: none;
+}
+
+.bottomSignInBtn:focus{
+    outline: none;
+}
+
+.footerCol{
+    padding: 2rem;
+}
+
+.footerCol a{
+    font-size: 13px;
+    padding: 4px;
+    color: #ddd5d8;
+}
+
+.footerCol h4{
+    font-weight: 600;
+    font-size: 16px;
+    padding: 2px 1px 5px 1px;
+}
+
+.restFooter{
+    background-color: #232f3e;
+    color: #FFF;
+}
+
+.imgFooter{
+    background-color: #232f3e;
+    border-top: 1px solid gray;
+}
+
+.languageBtn{
+    color: #FFF;
+    font-size: 10px;
+    border: 1px solid gray;
+    border-radius: 2px;
+}
+
+.listItems{
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.listItems ul{
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.listItems li{
+    display: inline-block;
+    text-align: center;
+    color: #cfd6e0;
+    font-size: 13px;
+}
+
+.listItems li a:hover{
+    color: #cfd6e0;
+}
+
+.lastFooter{
+    background-color: #131a22; */
+    /* padding: 20px; */
+    /* font-size: 10px;
+    color: gray;
+}
+
+.lastFooter a:hover{
+    color: gray;
+}
+
+.lastFooter p{
+    color: yellow;
+} */
+
+/* flipkart */
+.body_container{
+    background-color: #f1f3f6;
+}
+
+.card{
+    border: 1px solid transparent;
+}
+
+.items{
+    font-size: 11px;
+    font-weight: 600;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+
+.today{
+    border-bottom: 1px solid #e5e5e5;
+    border-radius: 2px 2px 0px 0px;
+}
+
+.btn-day{
+    border-radius: 2px;
+}
+
+.today-md{
+    background-image: url(https://rukminim1.flixcart.com/flap/1046/232/image/1dfcac4ca46adb2d.jpg?q=90);
+    padding-top: 20px;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-size: 800px 200px;
+}
