@@ -1,0 +1,96 @@
+.footerCol a{
+    font-size: 8px;
+    padding: 4px;
+    color: #ddd5d8;
+}
+
+.restFooter{
+    background-color: #172337;
+    color: #FFF;
+}
+
+.imgFooter{
+    background-color: #172337;
+    border-top: 1px solid gray;
+}
+
+.languageBtn{
+    color: #FFF;
+    font-size: 10px;
+    border: 1px solid gray;
+    border-radius: 2px;
+}
+
+.listItems{
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.listItems ul{
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.listItems li{
+    display: inline-block;
+    text-align: center;
+    color: #cfd6e0;
+    font-size: 13px;
+}
+
+.listItems li a:hover{
+    color: #cfd6e0;
+}
+
+.lastFooter{
+    background-color: #131a22; 
+    padding: 20px;
+    font-size: 10px;
+    color: gray;
+}
+
+.lastFooter a:hover{
+    color: gray;
+}
+
+.mail p{
+    font-size: 10px;
+    color: white;
+    padding-top: 10px;
+}
+
+.footer h4{
+    color: #948f86;
+    font-size: 13px;
+}
+
+.footerCol{
+    padding: 5px;
+}
+
+.art{
+    color: red;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    text-shadow: 1px 2px 4px rgba(252, 176, 176, 0.8);
+}
+
+@keyframes example{
+    0%   {font-size: 2px;}
+    10%   {font-size: 4px;}
+    20%   {font-size: 8px;}
+    30%   {font-size: 16px;}
+    40%   {font-size: 20px;}
+    50%   {font-size: 22px;}
+    60%   {font-size: 20px;}
+    70%   {font-size: 16px;}
+    80%   {font-size: 8px;}
+    90%   {font-size: 4px;}
+    100%  {font-size: 2px;}
+}
