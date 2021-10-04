@@ -1,0 +1,30 @@
+.cartBody{
+    background-color: #f1f3f6;
+    min-height: 100vh;
+}
+
+.itemsLeft{
+    border-left: 1px solid #dbdde0;
+    border-right: 1px solid #dbdde0;
+}
+
+.cartHeader{
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.item{
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.buttonDiv{
+    box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 0.2);
+}
+
+.totalAmtClass{
+    border-top: 1px dashed #dbdde0;
+    border-bottom: 1px dashed #dbdde0;
+}
+
+.removeBtn:hover{
+    color: #2874f0;
+}
