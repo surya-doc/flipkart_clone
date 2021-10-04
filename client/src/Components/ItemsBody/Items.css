@@ -1,0 +1,80 @@
+.items-body{
+    background-color: #f1f3f6;
+    font-family: Roboto, Arial, sans-serif;
+    color: #575757;
+}
+
+.filterText{
+    font-Weight: 500;
+    font-Size: 18px;
+    Line-height: 25px;
+    color: #212121;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.semiNav{
+    top: 9vh;
+    background-color: #FFF;
+    box-shadow: 0px 1px 2px 1px rgba(68, 41, 41, 0.2);
+}
+
+.semiNav p{
+    padding: 5px 0px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #575757;
+}
+
+.itemsBody{
+    margin-bottom: 100px;
+}
+
+.sort-prise{
+    border-radius: 50%;
+    border: 1px solid rgb(218, 218, 218);
+}
+
+.selectBox{
+    border: 1px solid #e0e0e0;
+}
+
+.des{
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+
+.nameOfProduct{
+    text-transform: capitalize;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+
+.afterDis{
+    -webkit-text-stroke: 0.8px
+}
+
+.afterDis .fa-rupee-sign{
+    -webkit-text-stroke: 0.1px
+}
+
+.details{
+    transform: translate3d(0px, 0px, 0px);
+    transition-duration: 0.5s;
+    z-index: 50;
+}
+
+.card:hover > .details{
+    transform: translate3d(0px, -31px, 0px);
+}
+
+.sort:hover{
+    color: #2874f0;
+}
+
+.sort:focus{
+    outline: none;
+}
