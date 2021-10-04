@@ -1,0 +1,42 @@
+.loginPage{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.signInCont{
+    border: 1px solid gray;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+}
+
+.signInCont h4{
+    padding: 10px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.signInCont h5{
+    font-size: 11px;
+    font-weight: 600;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    text-align: left;
+}
+
+.signInCont .google{
+    margin: 0 auto;
+    width: 200px;
+}
+
+.jxtForm{
+    padding: 10px;
+    width: 90%;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.jxtForm:focus{
+    outline: none;
+    border-bottom: 1px solid #2874f0;
+}
