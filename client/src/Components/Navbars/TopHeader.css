@@ -1,0 +1,142 @@
+.header{
+    background-color: #2874f0;
+}
+.topHeader{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #2874f0;
+    font-family: Roboto, Arial, sans-serif;
+    z-index: 999;
+}
+
+img{
+    z-index: 100;
+}
+
+.input{
+    padding-left: 14px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    border-radius: 2px 0px 0px 2px;
+    font-size: 14px;
+}
+
+.search-button{
+    background-color: #FFF;
+    border-radius: 0px 2px 2px 0px;
+    color: #2874f0;
+}
+
+.input:focus{
+    outline: none;
+}
+
+.input::placeholder{
+    font-size: 13px;
+    margin: auto 0;
+    color: #757575;
+    font-weight: 400;
+}
+
+.form-2{
+    padding: 10px;
+}
+
+.input-2{
+    padding-left: 14px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    border-radius: 2px 0px 0px 2px;
+    font-size: 14px;
+}
+
+.search-button-2{
+    background-color: #FFF;
+    border-radius: 0px 2px 2px 0px;
+    color: #afafaf;
+}
+
+.input-2:focus{
+    outline: none;
+}
+
+.input::placeholder{
+    font-size: 13px;
+    margin: auto 0;
+    color: #757575;
+    font-weight: 400;
+}
+
+.loginBtn{
+    background-color: #FFF;
+    color: #2b76f0;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 4px 36px;
+    border-radius: 2px;
+    border: 1px solid #dbdbdb;
+    font-family: Roboto, Arial, sans-serif;;
+}
+
+.loginBtn:focus{
+    outline: none;
+}
+
+.searchList{
+    box-shadow: 2px 6px 8px 1px rgba(0, 0, 0, 0.4);
+}
+
+.searchList li:hover{
+    background-color: rgb(235, 244, 253);
+    cursor: pointer;
+}
+
+
+.myAccount{
+    cursor: pointer;
+}
+
+.myAccount:hover > .a{
+    display: block;
+    background-color: #FFF;
+    padding: 16px 8px;
+}
+
+.a p:hover{
+    background-color: #f1f3f6;
+}
+
+.myAccount:hover > .abcd{
+    display: block;
+    background-color: #FFF;
+    padding: 16px 8px;
+}
+
+.ab:hover{
+    background-color: #f1f3f6;
+}
+
+.arrowHead{
+    transition: 0.4s ease;
+}
+
+.myAccount:hover > .arrowHead{
+    transform: rotate(180deg);
+}
+
+.signup{
+    border-bottom: 1px solid transparent;
+}
+
+.signup:hover{
+    border-bottom: 1px solid #2874f0;
+}
+
+.triangle{
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 16px solid #FFF;
+}

@@ -1,0 +1,28 @@
+.secondHeader h4{
+    font-weight: 700;
+    font-family: Roboto, Arial, sans-serif;
+    color: #212121;
+}
+
+.fashion:hover > .h{
+    display: block;
+    background-color: #FFF;
+    padding: 16px 8px;
+    z-index: 1800;
+}
+
+.h{
+    box-shadow: 1px 8px 16px 4px rgba(0, 0, 0, 0.4);
+}
+
+.h h4{
+    text-align: left;
+    padding: 14px 80px 14px 10px;
+    cursor: pointer;
+    margin: 4px;
+}
+
+.h h4:hover{
+    color: blue;
+    background-color: rgb(243, 241, 241);
+}
