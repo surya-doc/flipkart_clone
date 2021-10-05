@@ -20,6 +20,10 @@ checkout live demo -> https://musing-mestorf-5e4fda.netlify.app/
 
             cd flipkart_clone
             
+* Then go to the client
+
+            cd client
+            
 * Then install the dependencies
 
             npm install
