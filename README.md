@@ -18,7 +18,7 @@ checkout live demo -> https://musing-mestorf-5e4fda.netlify.app/
            
 * Go to the directory
 
-            cd client
+            cd flipkart_clone
             
 * Then install the dependencies
 
